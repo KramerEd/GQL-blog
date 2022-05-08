@@ -3,9 +3,8 @@ import moment from 'moment'
 import Link from 'next/link'
 
 const PostCard = ({ post }) => {
-  console.log(post)
   return (
-    <div className="lg:p-8pb-12 shadow-lgtransition mb-8 animate-appear rounded-lg bg-white p-0 duration-500 hover:scale-105">
+    <div className="lg:p-8 pb-12 shadow-lg transition mb-8 animate-appear rounded-lg bg-white p-0 duration-500 hover:scale-105">
       <div className="relative mb-6 overflow-hidden pb-80 shadow-md ">
         <img
           src={post.featuredImage.url}
