@@ -24,7 +24,7 @@ const PostWidget = ({ categories, slug }) => {
       </h3>
       {relatedPosts.map((post) => (
         <div
-          className="mb-4 flex w-full items-center p-4 transition duration-500 hover:shadow-lg"
+          className="mb-4 flex w-full items-center p-3 transition duration-500 hover:shadow-lg"
           key={post.title}
         >
           <div className="w-16 flex-none">
